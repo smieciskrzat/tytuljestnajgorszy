@@ -1,0 +1,3 @@
+dodawanie linkow do innych podstron
+
+<a href=/tytuljestnajgorszy/[dalsza ścieżka]">tekst</a>
