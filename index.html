@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Spis Treści</title>
+<style>
+body 
+	{
+		background-color: #282A35;
+		font-family: Arial;
+		
+	}
+.main-info
+{
+ width: 80%;
+ padding-left: 10%;
+
+ height: 100%;
+  
+}
+.textspis
+
+{
+	padding-top:3%;
+	margin-top:2%;
+	color: #cc33ff;
+	font-size:2em;
+	cursor: pointer;
+}
+.Dropdown
+
+{
+	padding-top:3%;
+	margin-top:2%;
+	color: white;
+	font-size:2em;
+	
+}
+#artitle
+{
+	padding-top:3%;
+	margin-top:2%;
+	color: white;
+	font-size: 3em;
+}
+a
+{
+color: #cc33ff;
+}
+
+
+</style>
+</head>
+<body>
+	<div class="main-info">
+		<h1 id="artitle">
+		Spis Treści
+		</h1>
+		
+		<p class="textspis" onclick="Postacie_Collapse ()">Postacie<br></p>
+		<p class="Dropdown" id="Postaciespis" ></p>
+		<p class="textspis"><a onclick="Statki_Collapse ()">Statki</a><br></p>
+		<p class="Dropdown" id="Statkispis"></p>
+		<p class="textspis"><a onclick="Bronie_Collapse ()">Bronie</a><br></p>
+		<p class="Dropdown" id="Broniespis"></p>
+		<p class="textspis"><a onclick="Uklady_Collapse ()">Układy</a><br></p>
+		<p class="Dropdown" id="Ukladyspis"></p>
+		<p class="textspis"><a onclick="Rasy_Collapse ()">Rasy</a><br></p>
+		<p class="Dropdown" id="Rasyspis"></p>
+		<p class="textspis"><a onclick="cos_Collapse ()">cos</a><br></p>
+		<p class="Dropdown" id="cosspis"></p>
+		
+		
+	</div>
+
+
+</body>
+<script>
+var Postacie = 0;
+function Postacie_Collapse()
+	{
+		if(Postacie == 0)
+		{
+			document.getElementById("Postaciespis").innerHTML=
+			'<ul><li>'+
+			'<a href="./postacie/CoreyCain.html">Corey Cain</a>'+
+			'</li>'+
+			'<li>'+
+			'<a href="">ger</a>'+
+			'</li>'+
+			'</ul>';
+			
+			Postacie=1;
+		}
+		
+		else
+		{	
+			document.getElementById("Postaciespis").innerHTML="";
+			Postacie=0;
+		}
+	}
+var Statki = 0;
+function Statki_Collapse()
+	{
+		if(Statki == 0)
+		{
+			document.getElementById("Statkispis").innerHTML=
+			'<ul><li>'+
+			'<a href="">Lotniskowiec Redemption</a>'+
+			'</li>'+
+			'<li>'+
+			'<a href="">Fregata</a>'+
+			'</li>'+
+			'</ul>';
+			
+			Statki=1;
+		}
+		
+		else
+		{	
+			document.getElementById("Statkispis").innerHTML="";
+			Statki=0;
+		}
+	}
+	var Bronie = 0;
+function Bronie_Collapse()
+	{
+		if(Bronie == 0)
+		{
+			document.getElementById("Broniespis").innerHTML=
+			'<ul><li>'+
+			'<a href="">Lotniskowiec Redemption</a>'+
+			'</li>'+
+			'<li>'+
+			'<a href="">Fregata</a>'+
+			'</li>'+
+			'</ul>';
+			
+			Bronie=1;
+		}
+		
+		else
+		{	
+			document.getElementById("Broniespis").innerHTML="";
+			Bronie=0;
+		}
+	}
+	var Uklady = 0;
+function Uklady_Collapse()
+	{
+		if(Uklady == 0)
+		{
+			document.getElementById("Ukladyspis").innerHTML=
+			'<ul><li>'+
+			'<a href="./uklady">uklad</a>'+
+			'<ul>'+
+			'<li>'+
+			'<a href="./uklady/">planeta</a>'+
+			'</li>'+
+			'</ul>'+
+			'</li>'+
+			'<li>'+
+			'<a href="">Fregata</a>'+
+			'</li>'+
+			'</ul>';
+			
+			Uklady=1;
+		}
+		
+		else
+		{	
+			document.getElementById("Ukladyspis").innerHTML="";
+			Uklady=0;
+		}
+	}
+	var Rasy = 0;
+function Rasy_Collapse()
+	{
+		if(Rasy == 0)
+		{
+			document.getElementById("Rasyspis").innerHTML=
+			'<ul><li>'+
+			'<a href="">Lotniskowiec Redemption</a>'+
+			'</li>'+
+			'<li>'+
+			'<a href="">Fregata</a>'+
+			'</li>'+
+			'</ul>';
+			
+			Rasy=1;
+		}
+		
+		else
+		{	
+			document.getElementById("Rasyspis").innerHTML="";
+			Rasy=0;
+		}
+	}
+
+</script>
