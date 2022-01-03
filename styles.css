@@ -2,3 +2,9 @@ body
   {
   background-color: #282A35;
   }
+.main-info
+{
+ width: 80%;
+ padding-left: 10%;
+ background-color: black;
+}
