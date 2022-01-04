@@ -47,12 +47,19 @@ a
 {
 color: #cc33ff;
 }
- td, th
+ td
 
 {
 border: 3px double black;
 color: white;
  padding: 0.2em;	
+}
+th
+{
+border: 3px double black;
+color: white;
+ padding: 0.2em;	
+	width: 40%;
 }
 li
 {
