@@ -4,6 +4,11 @@ body
 		font-family: Arial;
 		
 	}
+table
+{
+position: fixed;
+margin-left: 70%;
+}
 .main-info
 {
  width: 60%;
