@@ -1,0 +1,71 @@
+body	
+	{
+		background-color: #282A35;
+		font-family: Arial;
+		
+	}
+.main-info
+{
+ width: 80%;
+ padding-left: 10%;
+
+ height: 100%;
+  
+}
+.textmain
+
+{
+	padding-top:3%;
+	margin-top:2%;
+	color: white;
+	font-size:1em;
+	
+}
+
+#artitle
+{
+	padding-top:3%;
+	margin-top:2%;
+	color: white;
+	font-size: 3em;
+}
+h1
+{
+	padding-top:3%;
+	margin-top:2%;
+	color: #c05beb;
+	font-size: 2em;
+}
+a
+{
+color: #cc33ff;
+}
+ td, th
+
+{
+border: 3px double black;
+color: white;
+ padding: 2em;	
+}
+li
+{
+margin: 1.5em;	
+}
+.textspis
+
+{
+	padding-top:3%;
+	margin-top:2%;
+	color: #cc33ff;
+	font-size:2em;
+	cursor: pointer;
+}
+.Dropdown
+
+{
+	padding-top:3%;
+	margin-top:2%;
+	color: white;
+	font-size:2em;
+	
+}
